@@ -1,0 +1,131 @@
+*
+{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Imprima', sans-serif;
+}
+.container
+{
+
+    width: 420px;
+    background: transparent;
+    position: absolute;
+    left:33.3%;
+    border: 0.5px solid transparent;
+}
+img
+{
+
+    height: 300px;
+    width: 418px;
+}
+.intro
+{
+    width: fit-content;
+    margin: 7%;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 0.5px solid transparent;
+}
+.h1
+{
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+p
+{
+    line-height: 25px;
+    margin-top: 5%;
+    font-size: medium;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.button
+{
+    position: relative;
+    top:15%;
+    text-align: center;
+    border: 0.5px solid rgba(255, 255, 255, 0);
+}
+.button button
+{
+    height: 25px;
+    background: transparent;
+    width: 50%;
+    text-align: center;
+    border:0.5px solid blue;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.school
+{
+    margin-top: 7%;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 0.5px solid transparent;
+}
+.school h1
+{
+    margin-top: 7%;
+}
+.college
+{
+    text-align: center;
+    margin-top: 10%;
+}
+.college h1
+{
+    margin-top: 7%;
+}
+.interest
+{
+    margin-top: 10%;
+    text-align: center;
+}
+i
+{
+    margin-top: 5%;
+    padding: 7px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    color: black;
+}
+h3
+{
+    text-align: center;
+    margin-top: 3%;
+    font-size: larger;
+    font-weight: 400;
+}
+#int
+{
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+hr
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 1000;
+}
+#end
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footer
+{
+    margin-top: 6%;
+    padding-left: 35%;
+}
+
+@media (width:375px)
+{
+    img
+    {
+        width: 100%;
+    }
+}
